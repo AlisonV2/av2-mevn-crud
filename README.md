@@ -12,5 +12,5 @@ Vue App
 
 ## License
 
-All rights reserved for the logo and background image. 
+All rights reserved for the logo and background image. <br>
 Everything else falls under the GNU LESSER GENERAL PUBLIC LICENSE.
