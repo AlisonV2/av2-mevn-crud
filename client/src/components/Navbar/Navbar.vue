@@ -7,7 +7,7 @@
       </router-link>
       <div class="spacer"></div>
       <div role="button" class="navbar-toggle">
-        <AppButton @click="$router.push('')">Create New </AppButton>
+        <AppButton @click="$router.push('/add')">Create New </AppButton>
       </div>
     </div>
   </nav>
