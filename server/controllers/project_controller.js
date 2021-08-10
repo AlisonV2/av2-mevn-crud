@@ -42,8 +42,7 @@ const readProjectById = (req, res) => {
 };
 
 const updateProject = (req, res) => {
-  Project.findByIdAndUpdate(
-    {_id : ObjectId(req.params.id)}, 
+  Project.findByIdAndUpdate(req.params.id, 
       req.body, {
       useFindAndModify: false,
       new: true,
