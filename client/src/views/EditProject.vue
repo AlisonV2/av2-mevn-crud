@@ -97,7 +97,7 @@
             class="form-control"
             id="thumbnail"
             placeholder="thumbnail"
-            v-model="stack"
+            v-model="thumbnail"
           />
         </div>
         <div class="button-group">
