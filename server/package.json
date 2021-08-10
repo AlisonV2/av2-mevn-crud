@@ -1,19 +1,22 @@
 {
-  "name": "av2-portfolio-back-server",
+  "name": "av2-backend-server",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Alison Vandromme's Portfolio - Backend",
+  "main": "server.js",
   "scripts": {
-    "dev": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node server.js",
+    "serve": "nodemon server.js",
+    "test": "test"
   },
-  "keywords": ["vue", "vuex", "mevn", "mongodb", "express", "node", "crud", "api"],
   "author": "Alison Vandromme",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
     "express": "^4.17.1",
-    "mongoose": "^5.13.6",
+    "mongoose": "^5.13.5"
+  },
+  "devDependencies": {
     "nodemon": "^2.0.12"
   }
 }
