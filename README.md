@@ -6,6 +6,7 @@ This project was made based on my portfolio's backend app.
 
 - Authentication
 - Custom privileges based on roles
+- Code refactoring (cuz let's be honest... it needs some DRYness)
 
 ## Server Side
 
