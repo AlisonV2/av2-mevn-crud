@@ -9,3 +9,8 @@ Node/Express API with MongoDB
 ## Client Side
 
 Vue App
+
+## License
+
+All rights reserved for the logo and background image. 
+Everything else is free to use. 
