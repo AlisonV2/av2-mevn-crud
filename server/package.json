@@ -4,8 +4,8 @@
   "description": "Alison Vandromme's Portfolio - Backend",
   "main": "server.js",
   "scripts": {
-    "dev": "node server.js",
-    "serve": "nodemon server.js",
+    "dev": "nodemon server.js",
+    "serve": "node server.js",
     "test": "test"
   },
   "author": "Alison Vandromme",
