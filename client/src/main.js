@@ -4,7 +4,7 @@ import router from './router';
 import store from './store';
 import 'bootstrap';
 import '@/assets/styles/app/app.scss';
-import AppButton from '@/components/App/Button.vue'
+import AppButton from '@/components/app/Button.vue'
 
 const app = createApp(App);
 
