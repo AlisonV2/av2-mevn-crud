@@ -14,8 +14,8 @@
 </template>
 
 <script>
-import BrandDesktop from '@/components/Navbar/brand/BrandDesktop';
-import BrandMobile from '@/components/Navbar/brand/BrandMobile';
+import BrandDesktop from '@/components/navbar/brand/BrandDesktop';
+import BrandMobile from '@/components/navbar/brand/BrandMobile';
 
 export default {
   name: "Navbar",
