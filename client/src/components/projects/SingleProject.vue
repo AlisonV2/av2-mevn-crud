@@ -3,7 +3,7 @@
     <div class="actions">
       <h3 @click="showDetails = !showDetails">{{ project.title }}</h3>
       <div class="icons">
-        <span @click="deleteProject" class="material-icons">delete</span>
+        <span @click="handleDelete" class="material-icons">delete</span>
         <router-link :to="{ name: 'EditProject', params: { id: project._id } }">
           <span class="material-icons">edit</span>
         </router-link>
@@ -37,12 +37,15 @@ export default {
     };
   },
   methods: {
-    deleteProject() {
+    handleDelete() {
       fetch(this.uri, {
         method: "DELETE",
       })
         .then(() => this.$emit("delete", this.project._id))
-        .catch((err) => console.log(err.message));
+        .then(() => {
+          this.$router.push("/");
+        })
+        .catch((err) => console.log(err));
     },
   },
 };

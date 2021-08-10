@@ -63,7 +63,7 @@ const updateProject = (req, res) => {
 };
 
 const deleteProject = (req, res) => {
-  Project.findById({_id : ObjectId(req.params.id)})
+  Project.findById(req.params.id)
     .then((data) => {
       if (!data) {
         throw new Error('Project not available');
