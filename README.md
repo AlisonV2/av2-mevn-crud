@@ -1,6 +1,11 @@
 # Portfolio Backend - MEVN CRUD 
 
-## In progress...
+This project was made based on my portfolio's backend app. 
+
+## Coming up...
+
+- Authentication
+- Custom privileges based on roles
 
 ## Server Side
 
