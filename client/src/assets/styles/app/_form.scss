@@ -1,0 +1,25 @@
+@include bp-up(md) {
+  form {
+    width: 80%;
+  }
+}
+
+form {
+  width: 100%;
+  max-width: auto;
+  border: 1px solid $primary-lighter-50;
+  padding: 3vw;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+}
+
+.form-control {
+    font-size: 1.8rem;
+    margin-bottom: 3rem;
+}
+
+label {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
