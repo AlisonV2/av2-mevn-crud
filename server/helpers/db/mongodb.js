@@ -15,6 +15,4 @@ const init = () => {
   });
 };
 
-mongoose.Promise = global.Promise;
-
 module.exports = init;
